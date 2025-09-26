@@ -33,7 +33,7 @@ export const Details = () => {
         <h3 className="detail-title">FIESTA</h3>
         <p className="detail-text">
           Luego de la ceremonia<br />
-       20:30pm<br />
+       20:30hs<br />
          <b> Rut Haus</b>
         </p>
         <a 
