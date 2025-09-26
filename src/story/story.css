@@ -382,7 +382,7 @@
   border-radius: 10px;
   width: 100%;
   background-color: #f8f9fa;
-  color: var(--color-text);
+  color:  rgb(213, 112, 101);
   font-family: var(--font-main);
   transition: all 0.3s ease;
   resize: vertical;
@@ -397,7 +397,7 @@
 }
 
 .comment-input::placeholder {
-  color: #999;
+  color: rgb(213, 112, 101);
 }
 
 .comment-submit {
