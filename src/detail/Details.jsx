@@ -13,7 +13,7 @@ export const Details = () => {
         <h3 className="detail-title">CEREMONIA</h3>
         <p className="detail-text">
           20 de noviembre<br />
-          19:00 hs.<br />
+          18:15 hs.<br />
        <b>Asociacion Israelita Sefaradi Or Mizrah</b>  
         </p>
         <a 
@@ -33,7 +33,7 @@ export const Details = () => {
         <h3 className="detail-title">FIESTA</h3>
         <p className="detail-text">
           Luego de la ceremonia<br />
-       21:30pm<br />
+       20:30pm<br />
          <b> Rut Haus</b>
         </p>
         <a 

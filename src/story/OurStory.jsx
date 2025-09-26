@@ -158,10 +158,10 @@ export const OurStory = () => {
     () => [
       { src: '/img/1.jpg' },
       { src: '/img/2.jpg' },
-      { src: '/img/3.jpg' },
+      { src: '/img/3.png' },
       { src: '/img/4.jpg' },
       { src: '/img/5.jpg' },
-      { src: '/img/6.jpeg' },
+      { src: '/img/6.jpg' },
     ],
     []
   );
