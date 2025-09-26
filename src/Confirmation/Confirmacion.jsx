@@ -8,7 +8,7 @@ export const Confirmacion = () => {
       <section className="confirmacion-section">
         <h2 className="confirmacion-titulo"><b>CONFIRMACIÓN DE ASISTENCIA </b></h2>
         <p className="confirmacion-subtitulo">
-          Esperamos que seas parte de esta gran celebración. Por favor completar un formulario por persona!!
+          Esperamos que seas parte de esta gran celebración. Por favor completar <b>un formulario por persona</b>!!
         </p>
         <a
           href="https://forms.gle/PFNpxXm1zQ2R2edVA"
