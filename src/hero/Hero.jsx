@@ -19,11 +19,7 @@ export const Hero = () => {
   return (
     <section
       className="relative h-screen min-w-full flex items-center justify-center text-white text-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/img/5.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+  style={{ backgroundImage: "url('/img/2.jpg')", backgroundSize: "cover", backgroundPosition: "center", }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40" />
