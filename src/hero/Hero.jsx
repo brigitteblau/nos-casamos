@@ -20,7 +20,7 @@ export const Hero = () => {
     <section
       className="relative h-screen min-w-full flex items-center justify-center text-white text-center overflow-hidden"
       style={{
-        backgroundImage: "url('/img/2.jpg')",
+        backgroundImage: "url('/img/5.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
