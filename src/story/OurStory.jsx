@@ -62,7 +62,7 @@ const CommentForm = ({ newComment, setNewComment, handleSubmit }) => (
       type="text"
       value={newComment}
       onChange={(e) => setNewComment(e.target.value)}
-      placeholder="Deja un comentario"
+      placeholder="dejales algo lindo a los novios"
       className="comment-input"
     />
     <button type="submit" className="comment-submit">Publicar</button>
