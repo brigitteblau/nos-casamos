@@ -53,8 +53,7 @@ export const Confirmacion = () => {
         Google — Fiesta (20:30)
       </a>
 
-      {/* Apple / Outlook / 365 / Yahoo */}
-      {/* En prod cambiá http(s) por webcal:// para abrir app calendario */}
+    
       <a href="/evento-jupa.ics">Apple / Outlook — Jupá (18:15)</a>
       <a href="/evento-fiesta.ics">Apple / Outlook — Fiesta (20:30)</a>
     </div>
