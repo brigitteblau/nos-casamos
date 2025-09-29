@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './confirm.css';
 import { Mail, Linkedin, Github } from 'lucide-react';
-
+import { FcGoogle } from "react-icons/fc";
+import { FaApple } from "react-icons/fa";
 export const Confirmacion = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
 
@@ -39,26 +40,36 @@ export const Confirmacion = () => {
 
   {openDropdown && (
     <div className="dropdown-agendar">
-      {/* Google: crea evento directo */}
       <a
         href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jup%C3%A1%20%E2%80%93%20Boda%20Flor%20%26%20Nico&dates=20251120T211500Z/20251120T221500Z&details=Ceremonia%20de%20Jup%C3%A1&location="
-        target="_blank" rel="noopener noreferrer"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2"
       >
-        Google — Jupá (18:15)
-      </a>
-      <a
-        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fiesta%20%E2%80%93%20Boda%20Flor%20%26%20Nico&dates=20251120T233000Z/20251121T080000Z&details=Fiesta%20en%20Rut%20Haus&location=Rut%20Haus"
-        target="_blank" rel="noopener noreferrer"
-      >
-        Google — Fiesta (20:30)
+        <FcGoogle /> Google — Jupá (18:15)
       </a>
 
-    
-      <a href="/evento-jupa.ics">Apple / Outlook — Jupá (18:15)</a>
-      <a href="/evento-fiesta.ics">Apple / Outlook — Fiesta (20:30)</a>
+      <a
+        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Fiesta%20%E2%80%93%20Boda%20Flor%20%26%20Nico&dates=20251120T233000Z/20251121T080000Z&details=Fiesta%20en%20Rut%20Haus&location=Rut%20Haus"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2"
+      >
+        <FcGoogle /> Google — Fiesta (20:30)
+      </a>
+
+      <a href="/evento-jupa.ics" className="flex items-center gap-2">
+        <FaApple /> Apple — Jupá (18:15)
+      </a>
+
+      <a href="/evento-fiesta.ics" className="flex items-center gap-2">
+        <FaApple /> Apple — Fiesta (20:30)
+      </a>
     </div>
   )}
 </div>
+
+
 
     
       </section>
